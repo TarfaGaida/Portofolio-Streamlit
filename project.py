@@ -1,7 +1,7 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
 import plotly.express as px
+
 def project_board():
     data = pd.read_csv('D:\EVA\DS\GIT_Porto\Portofolio-Streamlit\employee_survey_fin.csv')
     st.subheader('Employee Data Set')

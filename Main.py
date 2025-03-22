@@ -6,7 +6,7 @@ st.header('Data Science')
 
 st.sidebar.title('Navigation')
 
-page = st.sidebar.radio('Choose page', ['about me','Dashboard', 'Prediction', "Contact"])
+page = st.sidebar.radio('Choose page', ['about me','Dashboard', "Contact"])
 
 if page =='about me':
     import about
